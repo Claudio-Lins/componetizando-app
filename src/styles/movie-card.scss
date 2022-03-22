@@ -21,6 +21,7 @@
     .movie-info {
       max-width: 12.31rem;
       width: 100%;
+      padding-bottom: 1rem;
       
       display: flex;
       flex-direction: column;
@@ -53,6 +54,10 @@
             margin-right: 0.5rem;
           }
         }
+      }
+      .extras {
+        display: flex;
+        justify-content: space-between;
       }
     }
   }

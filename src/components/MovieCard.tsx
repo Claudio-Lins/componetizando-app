@@ -7,6 +7,8 @@ interface MovieCardProps {
   poster: string;
   rating: string;
   runtime: string;
+  realeased: string;
+  rated: string;
 }
 
 export function MovieCard(props: MovieCardProps) {
@@ -28,6 +30,10 @@ export function MovieCard(props: MovieCardProps) {
             <div>
               <Clock /> {props.runtime}
             </div>
+          </div>
+          <div className="extras">
+          <div className="">{props.realeased}</div>
+          <div className="">{props.rated}</div>
           </div>
         </div>
       </div>
